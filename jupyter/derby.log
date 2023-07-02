@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Oct 13 10:28:55 CDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0175-2294-24c0-000013e55508 
+on database directory /home/developer/gcp/cbidmltsf/jupyter/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27 
+Loaded from file:/opt/spark-3.0.1/jars/derby-10.12.1.1.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.8+10-post-Ubuntu-0ubuntu120.04
+user.dir=/home/developer/gcp/cbidmltsf/jupyter
+os.name=Linux
+os.arch=amd64
+os.version=5.4.0-48-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
