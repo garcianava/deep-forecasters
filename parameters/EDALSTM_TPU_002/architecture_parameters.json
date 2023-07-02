@@ -1,0 +1,29 @@
+{
+    "decoder": {
+        "activation": "elu",
+        "no_hidden": 256,
+        "dropout": 0.2,
+        "recurrent_dropout": 0.2
+    },
+    "encoder": {
+        "activation": "elu",
+        "no_hidden": 256,
+        "dropout": 0.2,
+        "recurrent_dropout": 0.2
+    },
+    "dense": {
+        "activation": [
+            "relu",
+            "relu",
+            "relu",
+            "sigmoid"
+        ],
+        "structure": [
+            128,
+            32,
+            8,
+            1
+        ]
+    },
+    "use_batch_normalization": true
+}

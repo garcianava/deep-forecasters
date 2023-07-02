@@ -1,0 +1,39 @@
+{
+    "dense": {
+        "structure": [
+            512,
+            128,
+            8
+        ],
+        "output_activation": "sigmoid",
+        "activation": "relu"
+    },
+    "hourly": {
+        "structure": [
+            64,
+            128
+        ],
+        "implementation_mode": 1,
+        "dropout": 0.2,
+        "unroll": false
+    },
+    "daily": {
+        "structure": [
+            64,
+            128
+        ],
+        "implementation_mode": 1,
+        "dropout": 0.2,
+        "unroll": false
+    },
+    "weekly": {
+        "structure": [
+            16,
+            64
+        ],
+        "implementation_mode": 1,
+        "dropout": 0.2,
+        "unroll": false
+    },
+    "use_timestamps": true
+}

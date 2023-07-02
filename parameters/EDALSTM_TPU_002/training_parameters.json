@@ -1,0 +1,41 @@
+{
+    "train_batch_size": 256,
+    "job-dir": "junk",
+    "use_tpu": true,
+    "iterations_per_loop": 20000,
+    "throttle_secs": 600,
+    "model_dir": "gs://cbidmltsf/models/EDALSTM_TPU_002_00",
+    "keep_checkpoint_max": 3,
+    "start_delay_secs": 600,
+    "base_learning_rate": 0.0001,
+    "eval_interval": 300,
+    "eval_batch_size": 1984,
+    "project": "spheric-rhythm-234515",
+    "lrs": [
+        [
+            1.0,
+            2
+        ],
+        [
+            0.5,
+            10
+        ],
+        [
+            0.2,
+            15
+        ],
+        [
+            0.1,
+            20
+        ]
+    ],
+    "tpu_zone": "us-central1-a",
+    "data_dir": "gs://cbidmltsf/sldbs/CPE04115_H_kw_20201021084001_256001_024",
+    "skip_host_call": false,
+    "precision": "float32",
+    "num_train_rows": 17824,
+    "tpu": "tpu-v3-8-tensorflow-1-15-preemptible",
+    "num_cores": 8,
+    "train_steps": 2800,
+    "num_eval_rows": 1984
+}

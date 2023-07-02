@@ -1,0 +1,15 @@
+{
+    "variable": "desbI",
+    "total_eval_rows": 931,
+    "total_train_rows": 4938,
+    "resolution": "H",
+    "end_timestamp": "2018-02-28_23:00:00",
+    "embedding": {
+        "weekly": 4,
+        "hourly": 8,
+        "daily": 8
+    },
+    "start_timestamp": "2017-04-01 00:00:00",
+    "path": "CPE04015_desbI_H_2017-04-01_00:00:00_2018-02-28_23:00:00_H008001001_D008024001_W004168001",
+    "equipment": "CPE04015"
+}

@@ -1,0 +1,22 @@
+{
+    "variable": "kw",
+    "start_timestamp": "2016-01-01 00:00:00",
+    "resolution": "H",
+    "embedding": {
+        "daily": 8,
+        "hourly": 8,
+        "weekly": 8
+    },
+    "device": "CPE04115",
+    "total_test_rows": 896,
+    "tau": {
+        "daily": 24,
+        "hourly": 1,
+        "weekly": 168
+    },
+    "end_timestamp": "2018-07-31_23:00:00",
+    "total_train_rows": 16736,
+    "no_targets": 24,
+    "path": "CPE04115_H_kw_20201021084001_008001_008024_008168_024",
+    "total_eval_rows": 896
+}

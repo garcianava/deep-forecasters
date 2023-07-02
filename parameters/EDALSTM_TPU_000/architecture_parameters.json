@@ -1,0 +1,18 @@
+{
+    "dense": {
+        "activation": "sigmoid",
+        "no_units": 1
+    },
+    "encoder": {
+        "dropout": 0.2,
+        "activation": "relu",
+        "no_hidden": 256,
+        "recurrent_dropout": 0.2
+    },
+    "decoder": {
+        "dropout": 0.2,
+        "activation": "relu",
+        "no_hidden": 256,
+        "recurrent_dropout": 0.2
+    }
+}

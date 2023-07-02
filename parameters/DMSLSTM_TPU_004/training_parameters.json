@@ -1,0 +1,35 @@
+{
+    "keep_checkpoint_max": 3,
+    "eval_interval": 300,
+    "start_delay_secs": 600,
+    "use_tpu": true,
+    "tpu": "tpu-v3-8-tensorflow-1-15-preemptible",
+    "num_eval_rows": 896,
+    "num_cores": 8,
+    "num_train_rows": 16736,
+    "lrs_weights": [
+        1.0,
+        0.1,
+        0.01,
+        0.001
+    ],
+    "data_dir": "gs://cbidmltsf/sldbs/CPE04115_H_kw_20201021084001_008001_008024_008168_024",
+    "tpu_zone": "us-central1-a",
+    "skip_host_call": false,
+    "job-dir": "junk",
+    "precision": "bfloat16",
+    "train_batch_size": 1024,
+    "lrs_steps": [
+        5,
+        30,
+        60,
+        80
+    ],
+    "base_learning_rate": 0.0025,
+    "iterations_per_loop": 20000,
+    "train_steps": 1635,
+    "model_dir": "gs://cbidmltsf/models/DMSLSTM_TPU_004_01",
+    "project": "spheric-rhythm-234515",
+    "throttle_secs": 600,
+    "eval_batch_size": 896
+}

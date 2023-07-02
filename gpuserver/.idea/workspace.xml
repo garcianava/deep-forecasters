@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45483f81-ca5c-4ae4-9e94-a44473b3cef4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/from_numpy_to_tfrecord_to_dataset-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/load_numpy_array-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/pandas_dataframe-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/tf_train_Example_demo-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/tfrecord-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/tfrecord_modified-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/tfrecord_store_and_recover_tensor_shape-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/.ipynb_checkpoints/train_from_tfrecord_01-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/from_numpy_to_tfrecord_to_dataset.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/load_numpy_array.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/numpy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/pandas_dataframe.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/tf_train_Example_demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/tfrecord.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/tfrecord_modified.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFRecord/tfrecord_store_and_recover_tensor_shape.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tfrecord/adjacent_hours_test.tfrecord" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tfrecord/adjacent_hours_train.tfrecord" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tfrecord/adjacent_hours_val.tfrecord" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tfrecord/test.tfrecord" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tfrecord/train.tfrecord" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tfrecord/val.tfrecord" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_11_build_tfrecord_files-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_15_datasets_train_from_tfrecord-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_16_tfrecord_deep_parallel_hourly_daily-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_16_tfrecord_flat_single_daily-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_16_tfrecord_flat_single_hourly-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_16_tfrecord_flat_single_weekly-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/cudnn_lstm_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/eval/events.out.tfevents.1567452206.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/eval/events.out.tfevents.1567461305.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/eval/events.out.tfevents.1567562224.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/events.out.tfevents.1567452184.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/events.out.tfevents.1567461285.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/events.out.tfevents.1567562204.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/graph.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-10716.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-10716.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-10716.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-10998.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-10998.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-10998.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11280.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11280.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11280.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11562.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11562.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11562.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11844.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11844.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_30th/model.ckpt-11844.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/eval/events.out.tfevents.1567615710.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/events.out.tfevents.1567615703.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/graph.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-1128.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-1128.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-1128.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-282.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-282.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-282.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-564.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-564.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-564.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-846.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-846.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_daily/model.ckpt-846.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/eval/events.out.tfevents.1567619397.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/eval/events.out.tfevents.1567624454.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/eval/events.out.tfevents.1567625101.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/events.out.tfevents.1567619348.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/events.out.tfevents.1567624407.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/events.out.tfevents.1567625052.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/graph.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2256.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2256.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2256.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2538.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2538.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2538.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2820.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2820.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-2820.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-3102.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-3102.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-3102.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-3384.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-3384.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_parallel_hourly_daily/model.ckpt-3384.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/eval/events.out.tfevents.1567616342.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/events.out.tfevents.1567616335.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/graph.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-1128.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-1128.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-1128.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-282.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-282.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-282.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-564.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-564.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-564.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-846.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-846.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31_weekly/model.ckpt-846.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/eval/events.out.tfevents.1567614425.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/events.out.tfevents.1567614405.XPS-L521X" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/graph.pbtxt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-0.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-0.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-0.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-1128.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-1128.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-1128.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-282.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-282.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-282.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-564.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-564.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-564.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-846.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-846.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_31th/model.ckpt-846.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_estimator_11_build_tfrecord_files.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_estimator_15_datasets_train_from_tfrecord.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_estimator_16_tfrecord_deep_parallel_hourly_daily.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_estimator_16_tfrecord_flat_single_daily.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_estimator_16_tfrecord_flat_single_hourly.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/lstm_estimator_16_tfrecord_flat_single_weekly.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/parallel_lstm_02_tfrecord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/000.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_05_Datasets-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/estimator/.ipynb_checkpoints/lstm_estimator_05_Datasets-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/lstm_estimator_04_NumPy_input_fn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/estimator/lstm_estimator_04_NumPy_input_fn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/lstm_estimator_05_Datasets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/estimator/lstm_estimator_05_Datasets.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/mnist_estimator_01.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/mnist_experiment_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/mnist_experiment_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/eval/events.out.tfevents.1550506869.XPS-L521X" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/events.out.tfevents.1550506824.XPS-L521X" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/graph.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-0.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-0.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-27.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-27.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-27.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-54.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-54.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/model_name/model.ckpt-54.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/parallel_lstm_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/estimator/parallel_lstm_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/tensorflow-data-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/tensorflow-data-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/tensorflow-data-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/tensorflow-data-master/create_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimator/tensorflow-data-master/train.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1PyEoo8mfSglb5ZCti2wj90hq84" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="garcianava@gmail.com" />
+    <property name="ACTIVE_CLOUD_PROJECT_ID" value="spheric-rhythm-234515" />
+    <property name="ACTIVE_CLOUD_PROJECT_NAME" value="Machine Learning Basics" />
+    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="684531416481" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.google.gct.idea.git.username" value="garcianava@gmail.com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/estimator" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/estimator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45483f81-ca5c-4ae4-9e94-a44473b3cef4" name="Default Changelist" comment="" />
+      <created>1552611994407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552611994407</updated>
+      <workItem from="1552611999098" duration="150000" />
+      <workItem from="1552612196338" duration="1357000" />
+      <workItem from="1552617927845" duration="350000" />
+      <workItem from="1552618514732" duration="1104000" />
+      <workItem from="1552664101209" duration="1202000" />
+      <workItem from="1552695281629" duration="4331000" />
+      <workItem from="1552750036128" duration="651000" />
+      <workItem from="1552777481951" duration="1241000" />
+      <workItem from="1553040187811" duration="659000" />
+      <workItem from="1553041012780" duration="853000" />
+      <workItem from="1553042765947" duration="69000" />
+      <workItem from="1560184769633" duration="507000" />
+      <workItem from="1560525183984" duration="69000" />
+      <workItem from="1560525662841" duration="2828000" />
+      <workItem from="1560537976148" duration="1165000" />
+      <workItem from="1560545238851" duration="2212000" />
+      <workItem from="1560630517861" duration="1018000" />
+      <workItem from="1560788543596" duration="1826000" />
+      <workItem from="1560791709338" duration="2506000" />
+      <workItem from="1560870728764" duration="8000" />
+      <workItem from="1560979537581" duration="2113000" />
+      <workItem from="1561045623982" duration="40000" />
+      <workItem from="1566838116690" duration="1953000" />
+      <workItem from="1566877688837" duration="647000" />
+      <workItem from="1567562893397" duration="69000" />
+      <workItem from="1567562980749" duration="72000" />
+      <workItem from="1567620741556" duration="2867000" />
+    </task>
+    <task id="LOCAL-00001" summary="Before optimizing LSTM cell for CPU.">
+      <created>1560794020086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560794020086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Before optimizing LSTM cell for CPU." />
+    <option name="LAST_COMMIT_MESSAGE" value="Before optimizing LSTM cell for CPU." />
+  </component>
+</project>

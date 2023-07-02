@@ -1,0 +1,28 @@
+{
+    "encoder": {
+        "dropout": 0.2,
+        "activation": "relu",
+        "recurrent_dropout": 0.2,
+        "no_hidden": 256
+    },
+    "dense": {
+        "structure": [
+            128,
+            32,
+            8,
+            1
+        ],
+        "activation": [
+            "relu",
+            "relu",
+            "relu",
+            "sigmoid"
+        ]
+    },
+    "decoder": {
+        "dropout": 0.2,
+        "activation": "relu",
+        "recurrent_dropout": 0.2,
+        "no_hidden": 256
+    }
+}

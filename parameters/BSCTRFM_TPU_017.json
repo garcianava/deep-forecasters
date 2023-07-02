@@ -1,0 +1,77 @@
+{
+    "data_dir": "gs://cbidmltsf/sldbs/LD2011-2014_SEPARATED_MT_320-MT_330_BSCTRFM_168_168",
+    "customer_ids": ["MT_320", "MT_321", "MT_322", "MT_323", "MT_324", "MT_325", "MT_326", "MT_327", "MT_328", "MT_329", "MT_330"],
+    "embedding": {
+	"hourly": 168
+    },
+    "tau": {
+	"hourly": 1
+    },
+    "no_targets": 168,
+    "total_train_rows": 54032,
+    "num_train_rows": 54032,
+    "total_eval_rows": 2728,
+    "num_eval_rows": 2728,
+    "total_test_rows": 1848,
+    "d_model": 512,
+    "id_embedding": {
+    	"use": true,
+    	"input_dim": 11,
+    	"output_dim": 20,
+    	"input_length": 1
+    },
+    "encoder": {
+    	"depth": 9,
+    	"d_model": 512,
+    	"input_dropout": 0.1,
+    	"num_layers": 2,
+    	"num_heads": 4,
+    	"dff": 1024,
+    	"layer_dropout": 0.2
+    },
+    "decoder": {
+    	"depth": 9,
+    	"d_model": 512,
+    	"input_dropout": 0.1,
+    	"num_layers": 2,
+    	"num_heads": 4,
+    	"dff": 1024,
+    	"layer_dropout": 0.2
+    },
+    "dense": {
+        "structure": [64, 8, 1],
+        "activation": ["relu", "relu", "sigmoid"]
+    },
+    "adam": {
+    	"beta1": 0.9,
+    	"beta2": 0.98,
+    	"epsilon": 0.00000001,
+    	"clip_norm": 1.0
+    },
+    "warmup_steps": 200,
+    "base_learning_rate": 0.00125,
+    "exp_1": -0.5,
+    "exp_2": -0.85,
+    "train_batch_size": 256,
+    "train_steps": 21100,
+    "eval_batch_size": 2728,
+    "use_tpu": true,
+    "iterations_per_loop": 50000,
+    "skip_host_call": false,
+    "save_summary_steps": 100,
+    "log_step_count_steps": 50000,
+    "mode": "train_and_eval",
+    "precision": "float32",
+    "eval_interval": 300,
+    "keep_checkpoint_max": 3,
+    "start_delay_secs": 600,
+    "throttle_secs": 600,
+    "job-dir": "junk",
+    "project": "spheric-rhythm-234515",
+    "num_cores": 8,
+    "tpu": "tpu-v3-8-tensorflow-1-15-preemptible",
+    "tpu_zone": "us-central1-a",
+    "lrs_weights": [1.0, 0.1, 0.01, 0.001],
+    "lrs_steps": [10, 70, 85, 95],
+    "lrs_max_epochs": 100
+}

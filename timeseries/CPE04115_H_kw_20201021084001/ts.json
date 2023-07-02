@@ -1,0 +1,8 @@
+{
+    "device": "CPE04115",
+    "resolution": "hourly",
+    "variable": "kw",
+    "start_timestamp": "2016-01-01 00:00:00",
+    "end_timestamp": "2018-07-31 23:00:00",
+    "identifier": "CPE04115_H_kw_20201021084001"
+}

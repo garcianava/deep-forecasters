@@ -1,0 +1,21 @@
+{
+    "device": "CPE04115",
+    "resolution": "hourly",
+    "variable": "kw_scaled",
+    "train": {
+        "start": "2016-01-01 00:00:00",
+        "end": "2017-12-31 23:00:00",
+        "num_lectures": 17542
+    },
+    "eval": {
+        "start": "2018-01-01 00:00:00",
+        "end": "2018-04-30 23:00:00",
+        "num_lectures": 2879
+    },
+    "test": {
+        "start": "2018-05-01 00:00:00",
+        "end": "2018-07-31 23:00:00",
+        "num_lectures": 2208
+    },
+    "identifier": "CPE04115_H_kw_20210526212214"
+}

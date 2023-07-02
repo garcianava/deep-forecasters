@@ -1,0 +1,43 @@
+{
+    "multistep_type": "time_distributed",
+    "daily": {
+        "implementation_mode": 1,
+        "unroll": false,
+        "dropout": 0.2,
+        "structure": [
+            64,
+            128
+        ]
+    },
+    "weekly": {
+        "implementation_mode": 1,
+        "unroll": false,
+        "dropout": 0.2,
+        "structure": [
+            64,
+            128
+        ]
+    },
+    "hourly": {
+        "implementation_mode": 1,
+        "unroll": false,
+        "dropout": 0.2,
+        "structure": [
+            64,
+            128
+        ]
+    },
+    "dense": {
+        "structure": [
+            512,
+            128,
+            24
+        ],
+        "activation": [
+            "relu",
+            "relu",
+            "sigmoid"
+        ]
+    },
+    "use_timestamps": false
+}
